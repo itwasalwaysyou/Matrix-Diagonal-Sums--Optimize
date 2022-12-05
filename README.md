@@ -30,7 +30,7 @@ My optimizations:
         Optimization 3: 
         
         matrix_t mat_copy = *mat;
- 	      vector_t sums = *vec;
+ 	vector_t sums = *vec;
 
         Using local copies of the struct
         This should make run faster because some data being cached in registers 
