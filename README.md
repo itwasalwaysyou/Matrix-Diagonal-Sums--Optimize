@@ -5,6 +5,7 @@ The purpose of this problem is to write sumdiag_OPTM() which is a faster version
 
 the space below shows how my performance optimizations improved on the baseline codes.
 ------ Tuned for csel-remote-lnx-NN machines --------
+
   SIZE       BASE       OPTM  SPDUP POINTS 
    512 2.8973e-02 3.2750e-03   8.85   0.79 
   1024 5.7083e-02 7.2390e-03   7.89   1.49 
